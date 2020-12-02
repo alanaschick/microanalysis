@@ -1,0 +1,36 @@
+{
+    "debugBreakpointsState": {
+        "breakpoints": [
+            {
+                "id": 1,
+                "path": "~/Desktop/dropbox_temp/imc/projects/fvicentini/fvicentini_analysis2.R",
+                "line_number": 445,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 445,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": false,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
+            },
+            {
+                "id": 2,
+                "path": "~/Desktop/dropbox_temp/imc/general_scripts/lefse_format_example.R",
+                "line_number": 14,
+                "function_steps": "",
+                "function_name": "toplevel",
+                "state": 1,
+                "editor_state": 1,
+                "editor_line_number": 14,
+                "is_pending_debug_completion": false,
+                "needs_updated_steps": false,
+                "type": 1,
+                "is_package_breakpoint": false,
+                "package_name": ""
+            }
+        ]
+    }
+}
