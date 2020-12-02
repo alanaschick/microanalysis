@@ -5,3 +5,22 @@ language:
 delete_merged_file: true
 output_dir: docs
 new_session: true
+rmd_files: [
+  "index.Rmd",
+
+  "extract-dna.Rmd",
+  "library-prep.Rmd",
+  "sequence.Rmd",
+  "quality-control.Rmd",
+  "primer-removal.Rmd",
+  "quality-filtering.Rmd",
+  "dada2.Rmd",
+  "remove-contaminants.Rmd",
+  "alpha-diversity.Rmd",
+  "beta-diversity.Rmd",
+  "differential-abundance.Rmd",
+  "normalization.Rmd",
+  "multivariate.Rmd",
+
+  "references.Rmd"
+  ]

@@ -1,7 +1,5 @@
 fig:nice-fig
 tab:nice-tab
-who-is-this-for
-overview-of-sections
 dna-extract
 library-preparation
 choosing-a-region

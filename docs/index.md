@@ -1,5 +1,6 @@
 --- 
 title: "Complete Microbiome Analysis"
+subtitle: "A Repository of Resources for Every Step of Microbiome Research" 
 author: "Alana Schick, other authors"
 date: "2020-12-01"
 site: bookdown::bookdown_site
@@ -8,18 +9,14 @@ documentclass: book
 bibliography: [book.bib, packages.bib]
 biblio-style: apalike
 link-citations: yes
-description: "A practical guide to modern microbiome analysis"
+description: "A work-in-progress"
 ---
 
 # Introduction {-}
 
 Here is an overview of what this book contains...
 
-## Who is this for?
-
-This is for anyone analysing amplicon sequence data...
-
-## Overview of sections
+## Overview of sections {-}
 
 
 
