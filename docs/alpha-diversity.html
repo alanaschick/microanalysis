@@ -4,27 +4,26 @@
 
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <title>Chapter 9 Alpha diversity | Complete Microbiome Analysis</title>
+  <title>Chapter 7 Alpha diversity | Complete Microbiome Analysis</title>
   <meta name="description" content="A work-in-progress" />
-  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+  <meta name="generator" content="bookdown 0.27 and GitBook 2.6.7" />
 
-  <meta property="og:title" content="Chapter 9 Alpha diversity | Complete Microbiome Analysis" />
+  <meta property="og:title" content="Chapter 7 Alpha diversity | Complete Microbiome Analysis" />
   <meta property="og:type" content="book" />
-  
   
   <meta property="og:description" content="A work-in-progress" />
   
 
   <meta name="twitter:card" content="summary" />
-  <meta name="twitter:title" content="Chapter 9 Alpha diversity | Complete Microbiome Analysis" />
+  <meta name="twitter:title" content="Chapter 7 Alpha diversity | Complete Microbiome Analysis" />
   
   <meta name="twitter:description" content="A work-in-progress" />
   
 
-<meta name="author" content="Alana Schick, other authors" />
+<meta name="author" content="Alana Schick" />
 
 
-<meta name="date" content="2020-12-01" />
+<meta name="date" content="2022-06-17" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -33,7 +32,8 @@
   
 <link rel="prev" href="remove-contaminants.html"/>
 <link rel="next" href="beta-diversity.html"/>
-<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.min.js"></script>
 <link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
 <link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
@@ -49,8 +49,10 @@
 
 
 
+<link href="libs/anchor-sections-1.1.0/anchor-sections.css" rel="stylesheet" />
+<link href="libs/anchor-sections-1.1.0/anchor-sections-hash.css" rel="stylesheet" />
+<script src="libs/anchor-sections-1.1.0/anchor-sections.js"></script>
 
-<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
 
 
 
@@ -70,32 +72,29 @@
 <li><a href="./">Complete Microbiome Analysis</a></li>
 
 <li class="divider"></li>
-<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a><ul>
+<li class="chapter" data-level="" data-path="index.html"><a href="index.html"><i class="fa fa-check"></i>Introduction</a>
+<ul>
 <li class="chapter" data-level="" data-path="index.html"><a href="index.html#overview-of-sections"><i class="fa fa-check"></i>Overview of sections</a></li>
 </ul></li>
-<li class="part"><span><b>I Samples to Sequences</b></span></li>
-<li class="chapter" data-level="1" data-path="dna-extract.html"><a href="dna-extract.html"><i class="fa fa-check"></i><b>1</b> Extract DNA</a></li>
-<li class="chapter" data-level="2" data-path="library-preparation.html"><a href="library-preparation.html"><i class="fa fa-check"></i><b>2</b> Library Preparation</a><ul>
-<li class="chapter" data-level="2.1" data-path="library-preparation.html"><a href="library-preparation.html#choosing-a-region"><i class="fa fa-check"></i><b>2.1</b> Choosing a region</a></li>
-<li class="chapter" data-level="2.2" data-path="library-preparation.html"><a href="library-preparation.html#primers"><i class="fa fa-check"></i><b>2.2</b> Primers</a></li>
-<li class="chapter" data-level="2.3" data-path="library-preparation.html"><a href="library-preparation.html#indexes"><i class="fa fa-check"></i><b>2.3</b> Indexes</a></li>
+<li class="part"><span><b>I Part 1: Samples to Sequences</b></span></li>
+<li class="chapter" data-level="1" data-path="dna-extract.html"><a href="dna-extract.html"><i class="fa fa-check"></i><b>1</b> Experimental Design Considerations</a></li>
+<li class="chapter" data-level="2" data-path="power-analyses.html"><a href="power-analyses.html"><i class="fa fa-check"></i><b>2</b> Power Analyses</a></li>
+<li class="chapter" data-level="3" data-path="sequencing-samples.html"><a href="sequencing-samples.html"><i class="fa fa-check"></i><b>3</b> Sequencing samples</a></li>
+<li class="part"><span><b>II Working with Sequence Data</b></span></li>
+<li class="chapter" data-level="4" data-path="filtering-and-cleaning.html"><a href="filtering-and-cleaning.html"><i class="fa fa-check"></i><b>4</b> Filtering and cleaning</a></li>
+<li class="chapter" data-level="5" data-path="generating-abundance-tables.html"><a href="generating-abundance-tables.html"><i class="fa fa-check"></i><b>5</b> Generating Abundance Tables</a></li>
+<li class="chapter" data-level="6" data-path="remove-contaminants.html"><a href="remove-contaminants.html"><i class="fa fa-check"></i><b>6</b> Remove Contaminants</a></li>
+<li class="part"><span><b>III Working with Abundance Tables</b></span></li>
+<li class="chapter" data-level="7" data-path="alpha-diversity.html"><a href="alpha-diversity.html"><i class="fa fa-check"></i><b>7</b> Alpha diversity</a></li>
+<li class="chapter" data-level="8" data-path="beta-diversity.html"><a href="beta-diversity.html"><i class="fa fa-check"></i><b>8</b> Beta Diversity</a></li>
+<li class="chapter" data-level="9" data-path="differential-abundance.html"><a href="differential-abundance.html"><i class="fa fa-check"></i><b>9</b> Differential Abundance</a></li>
+<li class="chapter" data-level="10" data-path="normalization-methods.html"><a href="normalization-methods.html"><i class="fa fa-check"></i><b>10</b> Normalization Methods</a></li>
+<li class="chapter" data-level="11" data-path="multivariate-analysis.html"><a href="multivariate-analysis.html"><i class="fa fa-check"></i><b>11</b> Multivariate Analysis</a></li>
+<li class="part"><span><b>IV Advanced Topics</b></span></li>
+<li class="chapter" data-level="12" data-path="reproducible-workflows.html"><a href="reproducible-workflows.html"><i class="fa fa-check"></i><b>12</b> Reproducible Workflows</a>
+<ul>
+<li class="chapter" data-level="12.1" data-path="reproducible-workflows.html"><a href="reproducible-workflows.html#snakemake"><i class="fa fa-check"></i><b>12.1</b> Snakemake</a></li>
 </ul></li>
-<li class="chapter" data-level="3" data-path="sequencing-samples.html"><a href="sequencing-samples.html"><i class="fa fa-check"></i><b>3</b> Sequencing samples</a><ul>
-<li class="chapter" data-level="3.1" data-path="sequencing-samples.html"><a href="sequencing-samples.html#instrument"><i class="fa fa-check"></i><b>3.1</b> Instrument</a></li>
-<li class="chapter" data-level="3.2" data-path="sequencing-samples.html"><a href="sequencing-samples.html#caveats"><i class="fa fa-check"></i><b>3.2</b> Caveats</a></li>
-</ul></li>
-<li class="part"><span><b>II Sequences to Variant Tables</b></span></li>
-<li class="chapter" data-level="4" data-path="quality-control.html"><a href="quality-control.html"><i class="fa fa-check"></i><b>4</b> Quality Control</a></li>
-<li class="chapter" data-level="5" data-path="primer-removal.html"><a href="primer-removal.html"><i class="fa fa-check"></i><b>5</b> Primer Removal</a></li>
-<li class="chapter" data-level="6" data-path="quality-filtering.html"><a href="quality-filtering.html"><i class="fa fa-check"></i><b>6</b> Quality Filtering</a></li>
-<li class="chapter" data-level="7" data-path="generate-sv-table.html"><a href="generate-sv-table.html"><i class="fa fa-check"></i><b>7</b> Generate SV table</a></li>
-<li class="chapter" data-level="8" data-path="remove-contaminants.html"><a href="remove-contaminants.html"><i class="fa fa-check"></i><b>8</b> Remove Contaminants</a></li>
-<li class="part"><span><b>III Variant Tables to Biological Meaning</b></span></li>
-<li class="chapter" data-level="9" data-path="alpha-diversity.html"><a href="alpha-diversity.html"><i class="fa fa-check"></i><b>9</b> Alpha diversity</a></li>
-<li class="chapter" data-level="10" data-path="beta-diversity.html"><a href="beta-diversity.html"><i class="fa fa-check"></i><b>10</b> Beta Diversity</a></li>
-<li class="chapter" data-level="11" data-path="differential-abundance.html"><a href="differential-abundance.html"><i class="fa fa-check"></i><b>11</b> Differential Abundance</a></li>
-<li class="chapter" data-level="12" data-path="normalization-methods.html"><a href="normalization-methods.html"><i class="fa fa-check"></i><b>12</b> Normalization Methods</a></li>
-<li class="chapter" data-level="13" data-path="multivariate-analysis.html"><a href="multivariate-analysis.html"><i class="fa fa-check"></i><b>13</b> Multivariate Analysis</a></li>
 <li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
 <li class="divider"></li>
 <li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
@@ -117,8 +116,8 @@
           <div class="page-inner">
 
             <section class="normal" id="section-">
-<div id="alpha-diversity" class="section level1">
-<h1><span class="header-section-number">Chapter 9</span> Alpha diversity</h1>
+<div id="alpha-diversity" class="section level1 hasAnchor" number="7">
+<h1><span class="header-section-number">Chapter 7</span> Alpha diversity<a href="alpha-diversity.html#alpha-diversity" class="anchor-section" aria-label="Anchor link to header"></a></h1>
 <p>And now for some alpha diversity methods</p>
 
 </div>
@@ -132,7 +131,6 @@
     </div>
   </div>
 <script src="libs/gitbook-2.6.7/js/app.min.js"></script>
-<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
 <script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
 <script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
@@ -151,6 +149,7 @@ gitbook.start({
 "weibo": false,
 "instapaper": false,
 "vk": false,
+"whatsapp": false,
 "all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
 },
 "fontsettings": {
@@ -171,6 +170,10 @@ gitbook.start({
 "text": null
 },
 "download": ["complete-microbiome-analysis.pdf", "complete-microbiome-analysis.epub"],
+"search": {
+"engine": "fuse",
+"options": null
+},
 "toc": {
 "collapse": "subsection"
 }

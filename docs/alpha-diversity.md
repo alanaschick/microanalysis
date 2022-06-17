@@ -1,4 +1,4 @@
-# (PART) Variant Tables to Biological Meaning {-}
+# (PART) Working with Abundance Tables {-}
 
 # Alpha diversity
 

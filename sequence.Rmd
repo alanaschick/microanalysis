@@ -1,6 +1,1 @@
 # Sequencing samples
-
-## Instrument
-
-## Caveats
-

@@ -8,19 +8,21 @@ new_session: true
 rmd_files: [
   "index.Rmd",
 
-  "extract-dna.Rmd",
-  "library-prep.Rmd",
+  "exp-design.Rmd",
+  "power-analyses.Rmd",
   "sequence.Rmd",
-  "quality-control.Rmd",
-  "primer-removal.Rmd",
-  "quality-filtering.Rmd",
-  "dada2.Rmd",
+
+  "filter-clean.Rmd",
+  "abundance-tables.Rmd",
   "remove-contaminants.Rmd",
+
   "alpha-diversity.Rmd",
   "beta-diversity.Rmd",
   "differential-abundance.Rmd",
   "normalization.Rmd",
   "multivariate.Rmd",
+
+  "reproducible-workflows.Rmd",
 
   "references.Rmd"
   ]
