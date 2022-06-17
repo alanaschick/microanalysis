@@ -1,6 +1,6 @@
 --- 
 title: "Complete Microbiome Analysis"
-subtitle: "A Repository of Resources for Every Step of Microbiome Research" 
+subtitle: "A Repository of Resources for Microbiome Research" 
 author: "Alana Schick"
 date: "2022-06-17"
 site: bookdown::bookdown_site
