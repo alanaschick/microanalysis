@@ -15,6 +15,7 @@ rmd_files: [
   "filter-clean.Rmd",
   "abundance-tables.Rmd",
   "remove-contaminants.Rmd",
+  "annotate-functions.Rmd"
 
   "alpha-diversity.Rmd",
   "beta-diversity.Rmd",
