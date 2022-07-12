@@ -4,10 +4,18 @@ Comparing methods:
 
 https://www.nicholas-ollberding.com/post/identifying-differentially-abundant-features-in-microbiome-data/
 
+Many methods:
+
+Conservative: Aldex2, Ancom
+
+Less conservative: edgeR, Lefse, Limmavoom
+
+Method choice depends on your data as well as your tolerance for false positives or spurious results. 
+
 
 ## Corncob notes
 
-Beta binomial regression. 
+Beta binomial regression.
 
 How to interpret coefficients:
 
